@@ -1,14 +1,50 @@
-#hero-section{
 
-    background: url(https://saahayata.files.wordpress.com/2020/06/monk-surrounded-by-children-933624-1.jpg);
-    height: 100vh;
-    width: 99vw;
+#hero-img{
+    width: 100%;
+    opacity: 0.6;
     background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    z-index: 0;
+}
+#hero{
+    position: relative;
+}
+#desc{
+    color: #fff;
+    text-shadow: 5px 5px 2px #252525;
+    position: absolute;
+    top: 320px;
+    z-index: 1;
+    left: 20px;
+    font-weight: 900;
+}
+#download-div{
+    margin-top: -30px;
+}
+#download-img{
+    height: 80px;
+}
+#main-title{
+    font-size: 4rem;
+    margin-top: 20px;
+}
+#some-desc{
+    font-size: 2rem;
 }
 
-
-
+@media (max-width:390px){
+    #hero{
+        width: 125%;
+    }
+    #about{
+        width: 125%;
+    }
+    #footer{
+        width: 125%;
+    }
+}
 
 
 #social-icons > a{
