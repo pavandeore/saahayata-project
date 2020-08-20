@@ -44,18 +44,24 @@
     #footer{
         width: 125%;
     }
+    #desc{
+        transform: scale(0.55);
+        top: 230px;
+        left: -70px;
+    }
 }
 @media (max-width:850px){
     #desc{
+        top: 250px;
         transform: scale(0.65);
-        left: -20px;
+        left: -30px;
     }
 }
 @media (max-width:475px){
     #desc{
         transform: scale(0.55);
-        top: 300px;
-        left: -40px;
+        top: 240px;
+        left: -50px;
     }
 }
 
