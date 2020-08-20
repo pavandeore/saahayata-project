@@ -45,6 +45,19 @@
         width: 125%;
     }
 }
+@media (max-width:850px){
+    #desc{
+        transform: scale(0.65);
+        left: -20px;
+    }
+}
+@media (max-width:475px){
+    #desc{
+        transform: scale(0.55);
+        top: 300px;
+        left: -40px;
+    }
+}
 
 
 #social-icons > a{
